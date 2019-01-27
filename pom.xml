@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.sf</groupId>
     <artifactId>sb-pet-clinic</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>sb-pet-clinic</name>
     <description>Pet Clinic project for Spring Boot</description>
 
@@ -30,19 +30,19 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-release-plugin</artifactId>
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-release-plugin</artifactId>-->
 
-                <configuration>
-                    <goals>install</goals>
-                    <autoVersionSubmodules>true</autoVersionSubmodules>
-                </configuration>
-            </plugin>
+                <!--<configuration>-->
+                    <!--<goals>install</goals>-->
+                    <!--<autoVersionSubmodules>true</autoVersionSubmodules>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
         </plugins>
     </build>
-<scm>
-    <developerConnection>scm:git:git@github.com:KalyankarRajesh/sb-pet-clinic.git</developerConnection>
-    <tag>sb-pet-clinic-0.0.1</tag>
-  </scm>
+<!--<scm>-->
+    <!--<developerConnection>scm:git:git@github.com:KalyankarRajesh/sb-pet-clinic.git</developerConnection>-->
+    <!--<tag>sb-pet-clinic-0.0.1</tag>-->
+  <!--</scm>-->
 </project>
