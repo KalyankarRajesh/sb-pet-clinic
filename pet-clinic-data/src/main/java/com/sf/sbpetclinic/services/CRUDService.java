@@ -7,7 +7,7 @@ import java.util.Set;
 public interface CRUDService<T,ID> {
 
     T findById(Long id);
-    T save(T pet);
+    T save(T object);
     Set<T> findAll();
     void delete(T object);
     void deleteById(ID id);
